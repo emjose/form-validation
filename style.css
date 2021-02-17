@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+/* font-family: "Open Sans", sans-serif; */
+* {
+  box-sizing: border-box;
+}
+
 html {
   width: 100%;
   height: 100%;
@@ -14,6 +21,46 @@ html {
   animation: gradient 10s linear infinite;
   animation-direction: alternate;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(151, 143, 143, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 450px;
+}
+
+input {
+  background: rgb(255, 255, 255, 0.7);
+  /* padding: 5px 20px;
+  margin: 5px 5px;
+  width: 80%; */
+  /* box-sizing: border-box; */
+}
+
+::placeholder {
+  color: rgb(97, 96, 96);
+  opacity: 1;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
 
 @keyframes gradient {
   0% {
@@ -22,4 +69,7 @@ html {
   100% {
     background-position: 100%;
   }
+}
+
+.container {
 }
