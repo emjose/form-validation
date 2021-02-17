@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
+:root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
 /* font-family: "Open Sans", sans-serif; */
 * {
   box-sizing: border-box;
@@ -18,7 +23,7 @@ html {
     #ff5e52
   );
   background-size: 600% 100%;
-  animation: gradient 10s linear infinite;
+  animation: gradient 15s linear infinite;
   animation-direction: alternate;
 }
 body {
@@ -31,17 +36,17 @@ body {
 }
 
 .container {
-  background: rgba(255, 255, 255, 0.35);
-  box-shadow: 0 8px 32px 0 rgba(151, 143, 143, 0.37);
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(167, 167, 168, 0.37);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 450px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 400px;
 }
 
 input {
-  background: rgb(255, 255, 255, 0.7);
+  background: rgb(255, 255, 255, 0.6);
   /* padding: 5px 20px;
   margin: 5px 5px;
   width: 80%; */
@@ -49,7 +54,7 @@ input {
 }
 
 ::placeholder {
-  color: rgb(97, 96, 96);
+  color: rgb(109, 108, 108);
   opacity: 1;
 }
 
@@ -57,9 +62,79 @@ input {
   padding: 30px 40px;
 }
 
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  color: rgb(49, 48, 48);
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: rgb(161, 160, 160);
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  color: white;
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  outline: none;
+  box-shadow: 0 12px 12px 0 rgba(129, 129, 129, 0.37);
+}
+
 h2 {
   text-align: center;
   margin: 0 0 20px;
+  color: rgb(48, 48, 48);
+  font-size: 28px;
+  letter-spacing: 1.5px;
 }
 
 @keyframes gradient {
