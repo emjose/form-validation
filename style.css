@@ -52,7 +52,7 @@ body {
    */
   background: rgba(255, 255, 255, 0.3);
   padding: 1em;
-  width: 380px;
+  width: 420px;
   border-radius: 20px;
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   border-top: 1px solid rgba(255, 255, 255, 0.3);
@@ -73,7 +73,7 @@ body {
   background: rgb(255, 255, 255, 0.6);
 } */
 
-input {
+/* input {
   background: transparent;
   border: none;
   border-left: 1px solid rgba(255, 255, 255, 0.3);
@@ -86,16 +86,19 @@ input {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
+} */
 
 ::placeholder {
   /* color: rgb(121, 121, 121);
   opacity: 0.8;
   letter-spacing: 1px; */
   /* text-transform: uppercase; */
-  font-weight: 400;
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-weight: 100;
+  font-size: 19px;
+  opacity: 0.7;
+  font-variant: small-caps;
+  color: rgba(255, 255, 255);
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); */
 }
 
 .form {
@@ -108,14 +111,14 @@ input {
   position: relative;
 }
 
-.form-control label {
+/* .form-control label {
   color: rgb(255, 255, 255);
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
+} */
 
 .form-control input {
   /* border: 2px solid rgba(228, 228, 228, 0.2);
@@ -125,8 +128,8 @@ input {
   font-size: 16px;
   width: 100%;
   padding: 10px; */
-  font-size: 18px;
-  letter-spacing: 2px;
+  font-size: 21px;
+  letter-spacing: 1.5px;
   background: transparent;
   width: 100%;
   padding: 1em;
@@ -139,15 +142,17 @@ input {
   backdrop-filter: blur(5px);
   box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
   color: #fff;
-  font-weight: 700;
+  font-weight: 500;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .form-control input:focus {
-  outline: 0;
-  border-color: rgb(116, 116, 116);
+  /* outline: 0;
+  border-color: rgb(148, 148, 148); */
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
 }
 
 .form-control.success input {
@@ -155,8 +160,9 @@ input {
 }
 
 .form-control input:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.3);
   box-shadow: 4px 6px 60px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .form-control.error input {
@@ -193,7 +199,7 @@ input {
   width: 100%;
   outline: none;
   box-shadow: 0 12px 12px 0 rgba(167, 166, 166, 0.37); */
-
+  cursor: pointer;
   font-size: 18px;
   letter-spacing: 2px;
   background: transparent;
@@ -220,6 +226,7 @@ input {
   background-color: #000000;
   border: 1px solid #000000;
   color: white;
+  cursor: pointer;
 }
 
 .form button:active {
@@ -241,6 +248,7 @@ h2 {
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 30px;
+  letter-spacing: 1.5px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
