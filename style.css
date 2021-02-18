@@ -15,15 +15,15 @@ html {
   height: 100%;
   background: linear-gradient(
     45deg,
-    #f17c58,
-    #e94584,
-    #24aadb,
-    #27dbb1,
-    #ffdc18,
-    #ff5e52
+    #1b00b4,
+    #9803d3,
+    #e945e1,
+    #e94597,
+    #ff5e52,
+    #ffc852
   );
   background-size: 600% 100%;
-  animation: gradient 15s linear infinite;
+  animation: gradient 8s linear infinite;
   animation-direction: alternate;
 }
 body {
@@ -35,27 +35,61 @@ body {
   margin: 0;
 }
 
+/* #f17c58,
+    #e94584,
+    #24aadb,
+    #27dbb1,
+    #ffdc18,
+    #ff5e52 */
+
 .container {
-  background: rgba(255, 255, 255, 0.3);
+  /* background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(167, 167, 168, 0.37);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   width: 400px;
+   */
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1em;
+  width: 400px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  /* text-align: center; */
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-input {
+/* input {
   background: rgb(255, 255, 255, 0.6);
-  /* padding: 5px 20px;
-  margin: 5px 5px;
-  width: 80%; */
-  /* box-sizing: border-box; */
+} */
+
+input {
+  background: transparent;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: #fff;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 ::placeholder {
-  color: rgb(109, 108, 108);
-  opacity: 1;
+  color: rgb(121, 121, 121);
+  opacity: 0.8;
+  letter-spacing: 1px;
+  /* text-transform: uppercase; */
 }
 
 .form {
@@ -69,7 +103,7 @@ input {
 }
 
 .form-control label {
-  color: rgb(49, 48, 48);
+  color: rgb(255, 255, 255);
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
@@ -78,17 +112,18 @@ input {
 }
 
 .form-control input {
-  border: 2px solid #f0f0f0;
+  border: 2px solid rgba(228, 228, 228, 0.2);
   border-radius: 4px;
   display: block;
+  letter-spacing: 1.5px;
+  font-size: 16px;
   width: 100%;
   padding: 10px;
-  font-size: 14px;
 }
 
 .form-control input:focus {
   outline: 0;
-  border-color: rgb(161, 160, 160);
+  border-color: rgb(116, 116, 116);
 }
 
 .form-control.success input {
@@ -111,12 +146,14 @@ input {
   visibility: visible;
 }
 
+/* #3498db; */
+
 .form button {
   cursor: pointer;
-  background-color: #3498db;
-  border: 2px solid #3498db;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 4px;
-  color: white;
+  color: rgb(0, 0, 0);
   display: block;
   font-size: 18px;
   text-transform: uppercase;
@@ -126,14 +163,26 @@ input {
   margin-top: 20px;
   width: 100%;
   outline: none;
-  box-shadow: 0 12px 12px 0 rgba(129, 129, 129, 0.37);
+  box-shadow: 0 12px 12px 0 rgba(167, 166, 166, 0.37);
+}
+
+.form button:hover {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: white;
+}
+
+.form button:active {
+  background-color: #000000;
+  box-shadow: 0 12px 12px 0 rgba(112, 112, 112, 0.37);
+  transform: translateY(5px);
 }
 
 h2 {
   text-align: center;
   margin: 0 0 20px;
-  color: rgb(48, 48, 48);
-  font-size: 28px;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
   letter-spacing: 1.5px;
 }
 
