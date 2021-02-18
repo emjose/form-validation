@@ -15,10 +15,9 @@ html {
   height: 100%;
   background: linear-gradient(
     45deg,
-    #1b00b4,
+    #160092,
     #9803d3,
-    #e945e1,
-    #e94597,
+    #e945c6,
     #ff5e52,
     #ffc852
   );
@@ -53,7 +52,7 @@ body {
    */
   background: rgba(255, 255, 255, 0.3);
   padding: 1em;
-  width: 400px;
+  width: 380px;
   border-radius: 20px;
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   border-top: 1px solid rgba(255, 255, 255, 0.3);
@@ -61,7 +60,11 @@ body {
   backdrop-filter: blur(10px);
   box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
   /* text-align: center; */
-  position: relative;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -112,13 +115,31 @@ input {
 }
 
 .form-control input {
-  border: 2px solid rgba(228, 228, 228, 0.2);
+  /* border: 2px solid rgba(228, 228, 228, 0.2);
   border-radius: 4px;
   display: block;
   letter-spacing: 1.5px;
   font-size: 16px;
   width: 100%;
-  padding: 10px;
+  padding: 10px; */
+  font-size: 18px;
+  letter-spacing: 2px;
+  background: transparent;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 0.25em;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-weight: 700;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .form-control input:focus {
@@ -128,6 +149,11 @@ input {
 
 .form-control.success input {
   border-color: var(--success-color);
+}
+
+.form-control input:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 6px 60px 8px rgba(0, 0, 0, 0.2);
 }
 
 .form-control.error input {
@@ -149,10 +175,10 @@ input {
 /* #3498db; */
 
 .form button {
-  cursor: pointer;
+  /* cursor: pointer;
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.8);
-  border-radius: 4px;
+  border-radius: 50px;
   color: rgb(0, 0, 0);
   display: block;
   font-size: 18px;
@@ -163,7 +189,27 @@ input {
   margin-top: 20px;
   width: 100%;
   outline: none;
-  box-shadow: 0 12px 12px 0 rgba(167, 166, 166, 0.37);
+  box-shadow: 0 12px 12px 0 rgba(167, 166, 166, 0.37); */
+
+  font-size: 18px;
+  letter-spacing: 2px;
+  background: transparent;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 0.25em;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-weight: 700;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  outline: none;
 }
 
 .form button:hover {
@@ -179,11 +225,19 @@ input {
 }
 
 h2 {
-  text-align: center;
+  /* text-align: center;
   margin: 0 0 20px;
   color: rgb(255, 255, 255);
   font-size: 32px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.5px; */
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes gradient {
