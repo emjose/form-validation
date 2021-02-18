@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
 :root {
-  --success-color: #2ecc71;
-  --error-color: #e74c3c;
+  --success-color: #3cff8d;
+  --error-color: #ff1c02;
 }
 
 /* font-family: "Open Sans", sans-serif; */
@@ -113,6 +113,7 @@ body {
 
 .form-control.success input {
   border-color: var(--success-color);
+  border: 5px solid var(--success-color);
 }
 
 .form-control input:hover {
@@ -123,10 +124,15 @@ body {
 
 .form-control.error input {
   border-color: var(--error-color);
+  border: 5px solid var(--error-color);
+  font-size: 20px;
 }
 
 .form-control small {
-  color: var(--error-color);
+  color: white;
+  letter-spacing: 1.5px;
+
+  text-transform: uppercase;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -143,6 +149,7 @@ body {
   letter-spacing: 2px;
   background: transparent;
   width: 100%;
+  height: 65px;
   padding: 1em;
   margin-bottom: 0.25em;
   border: none;
