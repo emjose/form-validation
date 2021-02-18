@@ -4,7 +4,7 @@ const form = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
-const password2 = document.getElementById('password2');
+const password2 = document.getElementById('password confirmation');
 
 // Show input error message
 function showError(input, message) {
@@ -26,8 +26,8 @@ function checkEmail(input) {
     if(re.test(input.value.trim())) {
         showSuccess(input);
     } else {
-        showError(input, 'Email is not valid');
-    }
+        showError(input, 'Email is not valid or incomplete');
+    } 
 }
 
 // Check required fields
@@ -74,6 +74,7 @@ form.addEventListener('submit', function(e) {
     checkLength(password, 6, 25);
     checkEmail(email);
     checkPasswordsMatch(password, password2);
+    // document.getElementById("form").reset();
 });
 
 
