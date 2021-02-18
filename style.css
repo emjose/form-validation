@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
 :root {
-  --success-color: #3cff8d;
+  --success-color: #00ff6a;
   --error-color: #ff1c02;
 }
-
+/* #00ff6a; */
 /* font-family: "Open Sans", sans-serif; */
 * {
   box-sizing: border-box;
@@ -52,10 +52,10 @@ body {
 #form {
   background: rgba(255, 255, 255, 0.15);
   padding: 3em;
-  width: 420px;
+  width: 450px;
   border-radius: 20px;
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
@@ -141,6 +141,8 @@ body {
 
 .form-control.error small {
   visibility: visible;
+  font-size: 13px;
+  width: 100%;
 }
 
 .form button {
