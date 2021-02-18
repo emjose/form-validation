@@ -19,10 +19,10 @@ html {
     #9803d3,
     #e945c6,
     #ff5e52,
-    #ffc852
+    #ffe552
   );
   background-size: 600% 100%;
-  animation: gradient 8s linear infinite;
+  animation: gradient 7s linear infinite;
   animation-direction: alternate;
 }
 body {
@@ -42,17 +42,7 @@ body {
     #ff5e52 */
 
 .container {
-  /* background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(167, 167, 168, 0.37);
-  backdrop-filter: blur(1px);
-  -webkit-backdrop-filter: blur(1px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  width: 400px;
-   */
-
   position: absolute;
-
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   top: 50%;
@@ -70,6 +60,7 @@ body {
   backdrop-filter: blur(3px);
   box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
   text-align: center;
+  position: relative;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -146,8 +137,6 @@ body {
   visibility: visible;
 }
 
-/* #3498db; */
-
 .form button {
   cursor: pointer;
   font-size: 18px;
@@ -217,7 +206,20 @@ h2 {
   position: absolute;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  animation: animate 10s linear infinite;
+  animation-delay: calc(-2s * var(--i));
 }
+
+@keyframes animate {
+  0%,
+  100% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(40px);
+  }
+}
+
 .drop-1 {
   height: 200px;
   width: 200px;
@@ -227,17 +229,17 @@ h2 {
   border-radius: 500px;
 }
 .drop-2 {
-  height: 100px;
-  width: 100px;
-  bottom: -50px;
+  height: 110px;
+  width: 110px;
+  bottom: -90px;
   right: -50px;
-  border-radius: 50px;
+  border-radius: 500px;
 }
 .drop-3 {
-  height: 170px;
-  width: 210px;
+  height: 40px;
+  width: 350px;
   bottom: 170px;
-  right: -190px;
+  right: -220px;
   z-index: -1;
   transform: rotate(-45deg);
 }
@@ -247,13 +249,14 @@ h2 {
   top: -60px;
   right: -60px;
 }
-/* .drop-5 {
-  height: 60px;
-  width: 60px;
+.drop-5 {
+  height: 70px;
+  width: 70px;
+  top: 200px;
   bottom: 170px;
-  left: 90px;
+  left: -210px;
   z-index: -1;
-} */
+}
 
 a,
 input:focus,
