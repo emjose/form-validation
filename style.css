@@ -89,10 +89,13 @@ input {
 }
 
 ::placeholder {
-  color: rgb(121, 121, 121);
+  /* color: rgb(121, 121, 121);
   opacity: 0.8;
-  letter-spacing: 1px;
+  letter-spacing: 1px; */
   /* text-transform: uppercase; */
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .form {
