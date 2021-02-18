@@ -205,6 +205,7 @@ input {
   backdrop-filter: blur(5px);
   box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
   color: #fff;
+  text-transform: uppercase;
   font-weight: 700;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -250,4 +251,61 @@ h2 {
 }
 
 .container {
+}
+
+.drop {
+  background: rgba(255, 255, 255, 0.06);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.drop-1 {
+  height: 200px;
+  width: 200px;
+  top: -90px;
+  left: -120px;
+  z-index: -1;
+  border-radius: 500px;
+}
+.drop-2 {
+  height: 100px;
+  width: 100px;
+  bottom: -50px;
+  right: -50px;
+  border-radius: 50px;
+}
+.drop-3 {
+  height: 170px;
+  width: 210px;
+  bottom: 170px;
+  right: -190px;
+  z-index: -1;
+  transform: rotate(-45deg);
+}
+.drop-4 {
+  height: 120px;
+  width: 120px;
+  top: -60px;
+  right: -60px;
+}
+/* .drop-5 {
+  height: 60px;
+  width: 60px;
+  bottom: 170px;
+  left: 90px;
+  z-index: -1;
+} */
+
+a,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }
