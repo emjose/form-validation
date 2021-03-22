@@ -13,7 +13,7 @@
 
 <br>
 
-<a href="https://emjose.github.io/">![Form Validation](Assets/preview-014-form-validation.png)</a> 
+<a href="https://emjose.github.io/form-validation/">![Form Validation](Assets/preview-014-form-validation.png)</a> 
 
 #
 
@@ -41,7 +41,14 @@
 
 <a href=#table-of-contents>![Installation](Assets/inter-installation.png)</a>
 
-<a href=#installation>![under construction](Assets/lorem-text.png)</a>
+#### Git clone and cd into the repo folder:
+``` 
+git clone git@github.com:emjose/form-validation.git && cd form-validation
+```
+#### Run the command:
+```
+open index.html
+```
 
 #
 
@@ -49,7 +56,7 @@
 
 <a href=#table-of-contents>![Demos](Assets/inter-demo.png)</a>  
 
-<a href=#demo>![under construction](Assets/lorem-text.png)</a>
+<a href="https://emjose.github.io/form-validation/">![under construction](Assets/lorem-demo.png)</a>
 
 #
 
@@ -69,7 +76,4 @@
 
 #
 
-<a href=#header>![Back to Top](Assets/inter-congrats.png)</a> 
-
-
-
+<a href=#header>![Back to Top](Assets/inter-congrats.png)</a>
