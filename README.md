@@ -34,7 +34,12 @@
 
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
-<a href=#100days>![Under Construction](Assets/lorem-text.png)</a>
+#### Day 14: February 20, 2021
+- I completed the form validation project from the <a href="https://www.udemy.com/course/50-projects-50-days/">50 Projects in 50 Days Udemy course</a>. 
+  
+- The form validation project is also available in <a href="https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA">Florin Pop's</a> YouTube <a href="https://youtu.be/rsd4FNGTRBw">tutorial</a>.
+
+- For the form, I also applied <a href="https://glassmorphism.com/">Glassmorphism UI</a> and animations.
 
 #
 
@@ -57,7 +62,12 @@ open index.html
 
 <a href="https://emjose.github.io/form-validation/">![Live Site](Assets/inter-live-site.png)</a>  
 
-<a href="https://emjose.github.io/form-validation/">![Under Construction](Assets/lorem-live.png)</a>
+<a href="https://emjose.github.io/form-validation/">![Live Site](Assets/014-form-a.gif)</a>
+Validations check for empty or invalid fields.
+<br>
+<br>
+<a href="https://emjose.github.io/form-validation/">![Live Site](Assets/014-form-b.gif)</a>
+Required fields passing validations.
 
 #
 
@@ -65,7 +75,15 @@ open index.html
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>  
 
-<a href=#resources>![Under Construction](Assets/lorem-text.png)</a>
+- #### [Source Code by Florin Pop](https://codepen.io/FlorinPop17/pen/OJJKQeK)
+
+- #### [Glassmorphism CSS Generator](https://glassmorphism.com/)
+  
+- #### [Form Validation Tutorial](https://youtu.be/rsd4FNGTRBw) by [Florin Pop](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA) 
+  
+- #### [Glassmorphism Effects Login Form ](https://youtu.be/hJQ_WL-w590) by [Animation Coding](https://www.youtube.com/channel/UCnzIhXjOKIOgB3nIdOKJshQ)
+
+- #### [50 Projects In 50 Days - HTML, CSS & JavaScript](https://www.udemy.com/course/50-projects-50-days/) by [Brad Traversy](https://www.youtube.com/user/TechGuyWeb) and [Florin Pop](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA)
 
 #
 
