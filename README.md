@@ -85,6 +85,8 @@ Required fields passing validations.
 
 - #### [50 Projects In 50 Days - HTML, CSS & JavaScript](https://www.udemy.com/course/50-projects-50-days/) by [Brad Traversy](https://www.youtube.com/user/TechGuyWeb) and [Florin Pop](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA)
 
+- #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
+
 #
 
 <p id="lets-connect"><p>
