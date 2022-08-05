@@ -37,6 +37,7 @@
 #### Day 14: February 20, 2021
 
 -   I completed the form validation project from the <a href="https://www.udemy.com/course/50-projects-50-days/">50 Projects in 50 Days Udemy course</a>.
+
 -   The form validation project is also available in <a href="https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA">Florin Pop's</a> YouTube <a href="https://youtu.be/rsd4FNGTRBw">tutorial</a>.
 
 -   For the form, I also applied <a href="https://glassmorphism.com/">Glassmorphism UI</a> and animations.
@@ -49,13 +50,13 @@
 
 #### Git clone and cd into the repo folder:
 
-```
+```console
 git clone git@github.com:emjose/form-validation.git && cd form-validation
 ```
 
 #### Run the command:
 
-```
+```console
 open index.html
 ```
 
@@ -66,10 +67,15 @@ open index.html
 <a href="https://emjose.github.io/form-validation/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
 <a href="https://emjose.github.io/form-validation/">![Live Site](Assets/014-form-a.gif)</a>
+
 Validations check for empty or invalid fields.
+
+#
+
 <br>
-<br>
+
 <a href="https://emjose.github.io/form-validation/">![Live Site](Assets/014-form-b.gif)</a>
+
 Required fields passing validations.
 
 #
