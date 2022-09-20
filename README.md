@@ -28,6 +28,8 @@
 -   [Resources](#resources)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="100days"><p>
@@ -41,6 +43,8 @@
 -   The form validation project is also available in <a href="https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA">Florin Pop's</a> YouTube <a href="https://youtu.be/rsd4FNGTRBw">tutorial</a>.
 
 -   For the form, I also applied <a href="https://glassmorphism.com/">Glassmorphism UI</a> and animations.
+
+<br>
 
 #
 
@@ -60,6 +64,8 @@ git clone git@github.com:emjose/form-validation.git && cd form-validation
 open index.html
 ```
 
+<br>
+
 #
 
 <p id="live-site"><p>
@@ -68,7 +74,9 @@ open index.html
 
 <a href="https://emjose.github.io/form-validation/">![Live Site](Assets/014-form-a.gif)</a>
 
-Validations check for empty or invalid fields.
+• Example of validation check for empty or invalid fields.
+
+• **[Form Validation](https://emjose.github.io/form-validation/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
 #
 
@@ -76,7 +84,11 @@ Validations check for empty or invalid fields.
 
 <a href="https://emjose.github.io/form-validation/">![Live Site](Assets/014-form-b.gif)</a>
 
-Required fields passing validations.
+• Example of required fields passing validations.
+
+• **[Form Validation](https://emjose.github.io/form-validation/)** is responsive and keyboard-navigable.
+
+<br>
 
 #
 
@@ -87,12 +99,16 @@ Required fields passing validations.
 -   #### [Source Code by Florin Pop](https://codepen.io/FlorinPop17/pen/OJJKQeK)
 
 -   #### [Glassmorphism CSS Generator](https://glassmorphism.com/)
+
 -   #### [Form Validation Tutorial](https://youtu.be/rsd4FNGTRBw) by [Florin Pop](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA)
+
 -   #### [Glassmorphism Effects Login Form ](https://youtu.be/hJQ_WL-w590) by [Animation Coding](https://www.youtube.com/channel/UCnzIhXjOKIOgB3nIdOKJshQ)
 
 -   #### [50 Projects In 50 Days - HTML, CSS & JavaScript](https://www.udemy.com/course/50-projects-50-days/) by [Brad Traversy](https://www.youtube.com/user/TechGuyWeb) and [Florin Pop](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+
+<br>
 
 #
 
